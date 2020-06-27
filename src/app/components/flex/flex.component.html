@@ -1,0 +1,6 @@
+<!-- <ng-template [ngTemplateOutlet]="leftOutlet"></ng-template>
+<ng-template [ngTemplateOutlet]="contentOutlet"></ng-template>
+<ng-template [ngTemplateOutlet]="rightOutlet"></ng-template> -->
+<ng-content class="gs-flex-left" select="[left]"></ng-content>
+<ng-content class="gs-flex-content"></ng-content>
+<ng-content class="gs-flex-right" select="[right]"></ng-content>

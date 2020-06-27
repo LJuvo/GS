@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "GS"
+    }
+  },
+  "defaultProject": "GS",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -1,0 +1,24 @@
+<p>start works!</p>
+<!-- 此处有两种用法(templateOulet/插槽) -->
+<!-- <gs-flex [leftOutlet]="left">
+  <ng-template #left>
+    <div>GS</div>
+  </ng-template>
+  <div left>GS</div>
+  <div>shhs</div>
+</gs-flex> -->
+<gs-flex>
+  <div left>GS</div>
+  <div>shhs</div>
+</gs-flex>
+<gs-flex>
+  <div left>GS</div>
+  <div style="flex: 1;">shhs</div>
+  <div right>right</div>
+</gs-flex>
+
+<gs-flex direction="column">
+  <div left>GS</div>
+  <div>shhs</div>
+  <div right>right</div>
+</gs-flex>
